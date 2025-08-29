@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Christie Café</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/img2.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/img2.png" alt="Christie Café Logo" />
+        <h1><span class="highlight">Christie</span> Café</h1>
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="specials.html">Specials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="icons">
+        <i class="fas fa-bars menu mobile-only" id="menuToggle"></i>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-navbar" id="mobileNavbar">
+    <i class="fas fa-times menu close" id="menuClose"></i>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="specials.html">Specials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="images/gallery1.jpg" alt="Inside Christie Café" />
+      </div>
+      <div class="about-text">
+        <h2>Our Story</h2>
+        <p>
+          Christie Café was born from a love of coffee, community, and comfort. Nestled in the heart of Victoria Island,
+          Lagos, our café is more than just a place to grab a drink — it's a space to connect, unwind, and feel at home.
+        </p>
+        <p>
+          From our handcrafted brews to our locally sourced pastries, every detail is curated with care. Whether you're
+          catching up with friends, working remotely, or simply enjoying a quiet moment, Christie Café welcomes you with
+          warmth and flavor.
+        </p>
+        <p>
+          We believe in brewing joy — one cup, one conversation, one experience at a time.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <h2>Meet the Team</h2>
+    <div class="team-slider-wrapper">
+
+      <div class="team-slider">
+        <div class="team-member">
+          <img src="images/team1.png" alt="Christie - Founder" />
+          <h3>Christie</h3>
+          <p>Founder & Head Barista</p>
+        </div>
+        <div class="team-member">
+          <img src="images/team2.webp" alt="Tolu - Pastry Chef" />
+          <h3>Tolu</h3>
+          <p>Pastry Chef</p>
+        </div>
+        <div class="team-member">
+          <img src="images/team3.webp" alt="Ada - Community Manager" />
+          <h3>Ada</h3>
+          <p>Community Manager</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timeline-section">
+    <h2>Our Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="year">2018</span>
+        <p>Christie Café opens its doors with a dream and a single espresso machine.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="year">2020</span>
+        <p>Expanded to include a full pastry kitchen and outdoor seating.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="year">2022</span>
+        <p>Launched our community events: poetry nights, art shows, and open mic sessions.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="year">2025</span>
+        <p>Celebrating 7 years of brewing comfort and connection in Lagos.</p>
+      </div>
+    </div>
+  </section>
+  <section class="values-section">
+    <h2>Our Values</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <i class="fas fa-heart"></i>
+        <h3>Warmth</h3>
+        <p>We create a space where everyone feels welcome, seen, and cared for.</p>
+      </div>
+      <div class="value-card">
+        <i class="fas fa-leaf"></i>
+        <h3>Conscious Craft</h3>
+        <p>From ethically sourced beans to sustainable packaging, we brew with intention.</p>
+      </div>
+      <div class="value-card">
+        <i class="fas fa-users"></i>
+        <h3>Community</h3>
+        <p>We believe in connection — through conversation, collaboration, and culture.</p>
+      </div>
+    </div>
+  </section>
+  <section class="community-section">
+    <h2>Join Our Community</h2>
+    <p class="community-intro">
+      Whether you're a coffee lover, a creative soul, or just looking for a cozy corner in Lagos — there's a place for
+      you at Christie Café. Be the first to hear about our events, specials, and stories.
+    </p>
+    <form class="community-form">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+    <div class="community-social">
+      <p>Follow us for daily brews & behind-the-scenes moments:</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="images/img2.png" alt="Christie Café Logo" />
+        <h3>Christie Café</h3>
+        <p>Brewing comfort, one cup at a time.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Visit Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fas fa-map-marker-alt"></i> 10 Akin Adesola St, Victoria Island, Lagos</p>
+        <p><i class="fas fa-phone-alt"></i> +234 801 234 5678</p>
+        <p><i class="fas fa-envelope"></i> hello@christiecafe.ng</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Christie Café. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script>
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.2
+    });
+
+    timelineItems.forEach(item => observer.observe(item));
+  </script>
+
+  <!-- Script -->
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const menuClose = document.getElementById("menuClose");
+    const mobileNavbar = document.getElementById("mobileNavbar");
+
+    if (menuToggle && mobileNavbar) {
+      menuToggle.addEventListener("click", () => mobileNavbar.classList.add("active"));
+    }
+    if (menuClose && mobileNavbar) {
+      menuClose.addEventListener("click", () => mobileNavbar.classList.remove("active"));
+    }
+    document.addEventListener("click", (e) => {
+      if (
+        mobileNavbar &&
+        !mobileNavbar.contains(e.target) &&
+        !menuToggle?.contains(e.target) &&
+        !menuClose?.contains(e.target)
+      ) {
+        mobileNavbar.classList.remove("active");
+      }
+    });
+  </script>
+</body>
+
+</html>
